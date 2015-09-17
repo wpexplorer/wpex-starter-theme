@@ -16,11 +16,11 @@ get_header(); ?>
 
 			<header class="single-header clr">
 				<h1 class="single-title"><?php the_title(); ?></h1>
-			</header>
+			</header><!-- .single-header -->
 
 			<article class="single-content clr">
 				<?php the_content(); ?>
-			</article>
+			</article><!-- .single-content -->
 
 			<?php the_post_navigation(); ?>
 

@@ -5,7 +5,7 @@
  * This is the template that displays the area of the page that contains both the current comments
  * and the comment form.
  *
- * Elegantly taken from the underscores framework.
+ * Elegantly taken from the Underscores framework: https://github.com/Automattic/_s/blob/master/comments.php
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

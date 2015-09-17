@@ -19,20 +19,22 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<?php if ( is_home() && ! is_front_page() ) : ?>
-				<header><h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1></header>
-			<?php endif; ?>
-
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<article class="entry clr">
+
 					<header class="entry-header">
-						<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-					</header>
+						<?php the_title( sprintf(
+							'<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+							'</a></h2>'
+						); ?>
+					</header><!-- .entry-header -->
+
 					<div class="entry-content clr">
 						<?php the_content(); ?>
 					</div><!-- .entry-content -->
-				</article>
+
+				</article><!-- .entry -->
 
 			<?php endwhile; ?>
 
