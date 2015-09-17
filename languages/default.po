@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Total\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-17 12:43-0800\n"
-"PO-Revision-Date: 2015-09-17 12:43-0800\n"
+"POT-Creation-Date: 2015-09-17 13:18-0800\n"
+"PO-Revision-Date: 2015-09-17 13:18-0800\n"
 "Last-Translator: AJ Clarke <wpexplorer@gmail.com>\n"
 "Language-Team: WPExplorer.com\n"
 "Language: en_US\n"
@@ -27,18 +27,26 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../footer.php:17
+#: ../footer.php:27
 msgid "Starter Theme for WordPress"
 msgstr ""
 
-#: ../functions.php:106
+#: ../functions.php:107
 msgid "Primary"
 msgstr ""
 
-#: ../functions.php:126
+#: ../functions.php:128
 msgid "Sidebar"
 msgstr ""
 
-#: ../functions.php:128
-msgid "Widgets in this area will be shown on all posts and pages."
+#: ../functions.php:130
+msgid "Widget displayed as a sidebar."
+msgstr ""
+
+#: ../functions.php:139
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:141
+msgid "Widget displayed in the site footer."
 msgstr ""
